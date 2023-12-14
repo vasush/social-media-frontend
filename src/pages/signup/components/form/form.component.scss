@@ -1,0 +1,29 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1em;
+  border-radius: 6px;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+
+  .label {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    /* width: 63%; */
+    margin: 1em;
+    text-align: center;
+  }
+  .button {
+    width: 78%;
+    height: 38px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-size: 17px;
+    background-color: #0a66c2;
+    cursor: pointer;
+  }
+}
